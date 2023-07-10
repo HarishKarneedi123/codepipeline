@@ -1,8 +1,8 @@
-version: 0.2
+version: 0.1
 phases:
   install:
     runtime-versions:
-        ruby: 2.6    
+        ruby: 1.6    
     commands:
     - pip3 install awscli --upgrade --quiet
     - pip3 install cfn-lint --quiet              
